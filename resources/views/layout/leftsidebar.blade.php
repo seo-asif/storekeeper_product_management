@@ -51,21 +51,21 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href={{ route('add.sale') }}>
                         <i class="mdi mdi-forum-outline"></i>
                         <span> Sell Product</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/update_price">
                         <i class="mdi mdi-clipboard-check"></i>
                         <span> Upadate Price</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href={{ route('all.sale') }}>
                         <i class="mdi mdi-chart-line"></i>
                         <span>Sale Transaction</span>
                     </a>

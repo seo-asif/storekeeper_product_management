@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class ProductController extends Controller
 {
-    public function addProduct(){
+    public function addProduct()
+    {
         return view('pages.add_product');
+    }
+
+    public function updatePrice()
+    {
+        return view('pages.update__product_price');
     }
 }
