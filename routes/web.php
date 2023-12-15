@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('pages.test');
-});
+Route::get('/', [DashboardController::class, 'showHome']);
+Route::get('/add_product', [ProductController::class, 'addProduct'])->name('add.product');

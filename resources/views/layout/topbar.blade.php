@@ -3,9 +3,8 @@
         <ul class="list-unstyled topnav-menu float-end mb-0">
 
             <li class="dropdown d-inline-block d-lg-none">
-                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light"
-                    data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
-                    aria-expanded="false">
+                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown"
+                    href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <i class="fe-search noti-icon"></i>
                 </a>
                 <div class="dropdown-menu dropdown-lg dropdown-menu-end p-0">
@@ -26,8 +25,8 @@
 
 
             <li class="dropdown notification-list topbar-dropdown">
-                <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown"
-                    href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="false" aria-expanded="false">
                     <i class="fe-bell noti-icon"></i>
                     <span class="badge bg-danger rounded-circle noti-icon-badge">2</span>
                 </a>
@@ -89,8 +88,7 @@
                     </div>
 
                     <!-- All-->
-                    <a href="javascript:void(0);"
-                        class="dropdown-item text-center text-primary notify-item notify-all">
+                    <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
                         View all
                         <i class="fe-arrow-right"></i>
                     </a>
@@ -99,10 +97,9 @@
             </li>
 
             <li class="dropdown notification-list topbar-dropdown">
-                <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light"
-                    data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
-                    aria-expanded="false">
-                    <img src="assets/images/users/user-1.jpg" alt="" class="rounded-circle">
+                <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown"
+                    href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                    <img src="assets/images/asif.webp" alt="" class="rounded-circle">
                     <span class="pro-user-name ms-1">
                         Asif Mosharraf <i class="mdi mdi-chevron-down"></i>
                     </span>
@@ -168,8 +165,7 @@
 
             <li>
                 <!-- Mobile menu toggle (Horizontal Layout)-->
-                <a class="navbar-toggle nav-link" data-bs-toggle="collapse"
-                    data-bs-target="#topnav-menu-content">
+                <a class="navbar-toggle nav-link" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
                     <div class="lines">
                         <span></span>
                         <span></span>
