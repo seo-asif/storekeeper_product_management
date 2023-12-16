@@ -3,8 +3,8 @@
         <ul class="list-unstyled topnav-menu float-end mb-0">
 
             <li class="dropdown d-inline-block d-lg-none">
-                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown"
-                    href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                <a class="nav-link dropdown-toggle arrow-none " data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">
                     <i class="fe-search noti-icon"></i>
                 </a>
                 <div class="dropdown-menu dropdown-lg dropdown-menu-end p-0">
@@ -16,8 +16,7 @@
             </li>
 
             <li class="dropdown d-none d-lg-inline-block">
-                <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-toggle="fullscreen"
-                    href="#">
+                <a class="nav-link dropdown-toggle arrow-none " data-toggle="fullscreen" href="#">
                     <i class="fe-maximize noti-icon"></i>
                 </a>
             </li>
@@ -25,8 +24,8 @@
 
 
             <li class="dropdown notification-list topbar-dropdown">
-                <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#"
-                    role="button" aria-haspopup="false" aria-expanded="false">
+                <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">
                     <i class="fe-bell noti-icon"></i>
                     <span class="badge bg-danger rounded-circle noti-icon-badge">2</span>
                 </a>
@@ -97,8 +96,8 @@
             </li>
 
             <li class="dropdown notification-list topbar-dropdown">
-                <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown"
-                    href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                <a class="nav-link dropdown-toggle nav-user me-0 " data-bs-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="false" aria-expanded="false">
                     <img src="assets/images/asif.webp" alt="" class="rounded-circle">
                     <span class="pro-user-name ms-1">
                         Asif Mosharraf <i class="mdi mdi-chevron-down"></i>
@@ -140,7 +139,7 @@
             </li>
 
             <li class="dropdown notification-list">
-                <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light">
+                <a href="javascript:void(0);" class="nav-link right-bar-toggle ">
                     <i class="fe-settings noti-icon"></i>
                 </a>
             </li>
@@ -158,7 +157,7 @@
 
         <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
             <li>
-                <button class="button-menu-mobile waves-effect waves-light">
+                <button class="button-menu-mobile ">
                     <i class="fe-menu"></i>
                 </button>
             </li>

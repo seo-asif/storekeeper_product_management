@@ -10,7 +10,8 @@
                 <h4 class="text-primary">Add Product</h4>
             </div>
 
-            <form action="#">
+            <form action="{{ route('store.product') }}" method="POST">
+                @csrf
 
                 <div class="mb-3">
                     {{-- <label for="productname" class="form-label">Product Name</label> --}}
@@ -23,7 +24,7 @@
                 </div>
                 <div class="mb-3">
                     {{-- <label for="price" class="form-label">Price</label> --}}
-                    <input type="text" id="price" class="form-control" placeholder="price">
+                    <input type="text" id="price" class="form-control" name="price"placeholder="price">
                 </div>
 
                 <div class="text-center d-grid">

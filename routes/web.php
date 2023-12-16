@@ -17,7 +17,13 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', [DashboardController::class, 'showHome']);
+
 Route::get('/add_product', [ProductController::class, 'addProduct'])->name('add.product');
-Route::get('/update_price', [ProductController::class, 'updatePrice']);
+Route::post('/add_product', [ProductController::class, 'storeProduct'])->name('store.product');
+Route::get('/update_price', [ProductController::class, 'updatePrice'])->name('update.price');
 Route::get('/all_sale', [SaleController::class, 'showSale'])->name('all.sale');
-Route::get('/sale', [SaleController::class, 'saleProduct'])->name('add.sale');
+
+Route::get('/sale', [SaleController::class, 'viewSaleProduct'])->name('add.sale');
+Route::post('/sale-products', [SaleController::class, 'saleProduct'])->name('sale.product');
+
+Route::post('/sale-product/update-price', [ProductController::class, 'updateProductPrice'])->name('sale.product.updatePrice');

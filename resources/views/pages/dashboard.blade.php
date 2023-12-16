@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-6">
                             <div class="text-end">
-                                <h3 class="text-dark my-1"><span data-plugin="counterup">12,008</span></h3>
+                                <h3 class="text-dark my-1"><span data-plugin="counterup">{{ $todaySales }}</span></h3>
                                 <p class="text-muted mb-0 text-truncate">Today</p>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-6">
                             <div class="text-end">
-                                <h3 class="text-dark my-1"><span data-plugin="counterup">7,410</span></h3>
+                                <h3 class="text-dark my-1"><span data-plugin="counterup">{{ $yesterdaySales }}</span></h3>
                                 <p class="text-muted mb-0 text-truncate">Yesterday</p>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-6">
                             <div class="text-end">
-                                <h3 class="text-dark my-1"><span data-plugin="counterup">2,125</span></h3>
+                                <h3 class="text-dark my-1"><span data-plugin="counterup">{{ $thisMonthSales }}</span></h3>
                                 <p class="text-muted mb-0 text-truncate">This Month</p>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="col-6">
                             <div class="text-end">
-                                <h3 class="text-dark my-1">$<span data-plugin="counterup">256</span>k</h3>
+                                <h3 class="text-dark my-1"><span data-plugin="counterup">{{ $lastMonthSales }}</span></h3>
                                 <p class="text-muted mb-0 text-truncate">Last Month</p>
                             </div>
                         </div>

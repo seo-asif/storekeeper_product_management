@@ -1,7 +1,8 @@
 @extends('master')
+
 @section('content')
     <div class="row mt-md-3">
-        <div class="col-10 ">
+        <div class="col-10">
             <div class="card">
                 <div class="card-body">
                     <div class="dropdown float-end">
@@ -16,7 +17,7 @@
                             <a href="javascript:void(0);" class="dropdown-item">Action</a>
                         </div>
                     </div>
-                    <h4 class="header-title mb-3">All Sale Transaction</h4>
+                    <h4 class="header-title mb-3">All Sale Transactions</h4>
 
                     <div class="table-responsive">
                         <table class="table table-striped table-sm table-nowrap table-centered mb-0">
@@ -30,22 +31,15 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>4th December 2023</td>
-                                    <td>T- Shirt</td>
-                                    <td class="ps-md-4">5</td>
-                                    <td class="ps-md-4">500</td>
-
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>2nd December 2023</td>
-                                    <td>T- Shirt</td>
-                                    <td class="ps-md-4">2</td>
-                                    <td class="ps-md-4">100</td>
-                                </tr>
-
+                                @foreach ($sales as $key => $sale)
+                                    <tr>
+                                        <td>{{ $key + 1 }}</td>
+                                        <td>{{ $sale->created_at }}</td>
+                                        <td>{{ $sale->product_name }}</td>
+                                        <td class="ps-md-4">{{ $sale->quantity }}</td>
+                                        <td class="ps-md-4">{{ $sale->subtotal }}</td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div> <!-- end table-responsive-->
@@ -54,8 +48,5 @@
             </div> <!-- end card-->
         </div>
         <!-- end col-->
-
-
-
     </div>
 @endsection
